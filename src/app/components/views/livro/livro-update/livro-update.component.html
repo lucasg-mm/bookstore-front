@@ -20,7 +20,7 @@
     </mat-form-field>
 
     <div class="buttons">
-        <button (click)="update()" disabled]="getMessage()" class="mat-elevation-z8" mat-stroked-button color="primary">ATUALIZAR</button>
+        <button (click)="update()" [disabled]="getMessage()" class="mat-elevation-z8" mat-stroked-button color="primary">ATUALIZAR</button>
         <button (click)="cancel()" class="mat-elevation-z8" mat-stroked-button color="warn">CANCELAR</button>
     </div>
 </form>
